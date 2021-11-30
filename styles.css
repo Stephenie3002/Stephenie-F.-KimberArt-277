@@ -1,0 +1,124 @@
+/* Basic Styles */
+
+* {
+margin: 0;
+padding: 0;
+  
+}
+
+Body {
+  background-color: rgb( 223, 232, 248);
+  
+}
+.main {
+  width: 80%;
+  margin: auto;
+  
+}
+
+/* Header Style */
+
+.header {
+  width: 100%;
+  height: auto;
+  
+} 
+
+.header > h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgb( 40,62,104); 
+}
+
+.nav {
+  background-color: rgb( 40,62,104);
+  width: 100%;
+  height: auto;
+  
+}
+
+ ul {
+  list-style-type: none;
+ }
+
+ul>li{
+  display: inline-block;
+  word-spacing: 20px;
+  font-size: 18px;
+  padding: 20px;,
+  
+}
+
+ li > a {
+ text-decoration: none;
+ color: #fff;
+  
+}
+
+/* banner Image */
+
+.banner {
+  width: 100%;
+  height: 400%;
+  
+}
+
+
+/* content style */
+
+h2 {
+  font-size: 30px;
+  margin: 10px 0;
+  
+}
+
+.content > p {
+  font-size: 1.2em;
+  line-height: 27px;
+  
+}
+
+.content > p > img{
+ width: 15%; 
+  float: right;
+}
+
+/* footer style */
+.footer {
+  background-color: rgb(40,62,104);
+  margin-top: 30px;
+  padding: 35px;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* Page Title */
+
+.pageTitle {
+  
+  background-color: rgb(9,23,49);
+  height: 50px;
+  padding: auto;
+  margin-top: 0;
+  color: #fff;
+  text-align: center;
+  
+  
+}
+
+/* content style */
+
+h2 {
+  text-align: center;
+  
+} 
+
+.content >  p > img {
+  Width: 15%;
+ 
+  
+} 
+
+
